@@ -4,7 +4,7 @@ const times = document.querySelector('#times');
 let clickTime = 0;
 let timesClicked = 0;
 
-loveMe.addEventListener('dblclick', (e) => {
+loveMe.addEventListener('click', (e) => {
   if (clickTime === 0) {
     clickTime = new Date().getTime();
     console.log(clickTime);
